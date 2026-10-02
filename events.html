@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events | IMAC Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="events">
+  <div id="site-header"></div>
+  <main class="section-wrap">
+    <div class="page-title-row"><div class="page-title"><span class="eyebrow">CAMPUS LIFE</span><h1>Events</h1><p>Keep an eye on what is happening around IMAC.</p></div><button class="btn btn-primary" id="openEventForm">⚑ Suggest an Event</button></div>
+    <div id="eventFormWrap" class="panel hidden"><form id="eventForm" class="form-grid">
+      <label>Event name<input id="eventName" required></label><label>Date<input id="eventDate" type="date" required></label>
+      <label>Location<input id="eventLocation" required></label><label>Organizer<input id="eventOrganizer" required></label>
+      <label class="wide">Description<textarea id="eventDescription" rows="3" required></textarea></label>
+      <div class="wide form-actions"><button type="button" class="btn btn-outline" id="closeEventForm">Cancel</button><button class="btn btn-primary">Submit suggestion</button></div>
+    </form></div>
+    <div id="eventsList" class="events-grid"></div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

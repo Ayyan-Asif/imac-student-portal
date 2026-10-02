@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In | IMAC Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="signin">
+  <div id="site-header"></div>
+  <main class="auth-page">
+    <div class="auth-card">
+      <span class="eyebrow">WELCOME BACK</span>
+      <h1>Sign in to IMAC.</h1>
+      <p class="muted">Access your student portal.</p>
+      <form id="signinForm" class="form-stack">
+        <label>Email<input id="signinEmail" type="email" placeholder="you@example.com" required></label>
+        <label>Password<input id="signinPassword" type="password" placeholder="Your password" required></label>
+        <div id="signinMessage" class="form-message hidden"></div>
+        <button class="btn btn-primary full" type="submit">Sign In →</button>
+      </form>
+      <p class="auth-switch">New here? <a href="signup.html">Create an account</a></p>
+      <div class="demo-note"><strong>Demo admin:</strong> admin@imac.demo / IMACAdmin123!</div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

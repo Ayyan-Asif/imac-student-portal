@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin | IMAC Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="admin">
+  <div id="site-header"></div>
+  <main class="section-wrap">
+    <div class="page-title"><span class="eyebrow">DEVELOPER CONSOLE</span><h1>Admin Dashboard</h1><p>Add, edit and delete lecture content. This demo stores data in LocalStorage.</p></div>
+    <div id="adminGuard" class="panel hidden"></div>
+    <div id="adminPanel" class="hidden">
+      <div class="admin-layout">
+        <section class="panel"><div class="panel-title"><h2>Lecture content</h2><button class="btn btn-primary btn-small" id="newLectureBtn">+ Add lecture</button></div><div id="adminLectureList"></div></section>
+        <aside class="panel">
+          <h2 id="lectureFormTitle">Add lecture</h2>
+          <form id="lectureForm" class="form-stack">
+            <label>Semester<select id="adminSemester" required><option>1st Semester</option><option>2nd Semester</option><option>3rd Semester</option><option>4th Semester</option></select></label>
+            <label>Course<select id="adminCourse" required></select></label>
+            <label>Video title<input id="adminVideoTitle" required></label>
+            <label>YouTube URL<input id="adminVideoUrl" type="url" placeholder="https://www.youtube.com/watch?v=..." required></label>
+            <label>Creator / channel<input id="adminCreator" required></label>
+            <label>Order number<input id="adminOrder" type="number" min="1" value="1" required></label>
+            <div class="form-actions"><button type="button" class="btn btn-outline" id="cancelEdit">Cancel</button><button class="btn btn-primary" type="submit">Save lecture</button></div>
+          </form>
+        </aside>
+      </div>
+      <div class="panel admin-note"><strong>Admin demo account:</strong> admin@imac.demo / IMACAdmin123! &nbsp; | &nbsp; Only the admin account can access this page.</div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

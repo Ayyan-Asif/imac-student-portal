@@ -1,0 +1,185 @@
+{
+  "note": "Seed/mock database. Browser app copies it to LocalStorage on first load; no server database is used in this front-end demo.",
+  "admin": {
+    "email": "admin@imac.demo",
+    "password": "IMACAdmin123!",
+    "role": "admin"
+  },
+  "lectures": [
+    {
+      "id": "l1",
+      "semester": "1st Semester",
+      "course": "Programming Fundamentals",
+      "title": "Python Programming - Full Beginner Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+      "order": 1
+    },
+    {
+      "id": "l2",
+      "semester": "1st Semester",
+      "course": "Programming Fundamentals",
+      "title": "Variables, Loops and Functions",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/results?search_query=python+variables+loops+functions",
+      "order": 2
+    },
+    {
+      "id": "l3",
+      "semester": "1st Semester",
+      "course": "Programming Fundamentals",
+      "title": "Problem Solving with Python",
+      "creator": "Corey Schafer",
+      "url": "https://www.youtube.com/results?search_query=Corey+Schafer+Python",
+      "order": 3
+    },
+    {
+      "id": "l4",
+      "semester": "1st Semester",
+      "course": "Calculus I",
+      "title": "Calculus 1 - Complete Playlist",
+      "creator": "Professor Leonard",
+      "url": "https://www.youtube.com/results?search_query=Professor+Leonard+Calculus+1",
+      "order": 1
+    },
+    {
+      "id": "l5",
+      "semester": "1st Semester",
+      "course": "Digital Logic Design",
+      "title": "Digital Logic - Number Systems & Gates",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/results?search_query=Gate+Smashers+Digital+Logic",
+      "order": 1
+    },
+    {
+      "id": "l6",
+      "semester": "2nd Semester",
+      "course": "Object Oriented Programming",
+      "title": "OOP Concepts Explained",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/results?search_query=OOP+programming+full+course",
+      "order": 1
+    },
+    {
+      "id": "l7",
+      "semester": "2nd Semester",
+      "course": "Data Structures",
+      "title": "Data Structures Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/results?search_query=freeCodeCamp+data+structures",
+      "order": 1
+    },
+    {
+      "id": "l8",
+      "semester": "2nd Semester",
+      "course": "Linear Algebra",
+      "title": "Essence of Linear Algebra",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/results?search_query=3Blue1Brown+linear+algebra",
+      "order": 1
+    },
+    {
+      "id": "l9",
+      "semester": "3rd Semester",
+      "course": "Artificial Intelligence",
+      "title": "Artificial Intelligence Full Course",
+      "creator": "Great Learning",
+      "url": "https://www.youtube.com/results?search_query=Artificial+Intelligence+full+course",
+      "order": 1
+    },
+    {
+      "id": "l10",
+      "semester": "3rd Semester",
+      "course": "Automata Theory",
+      "title": "Theory of Computation / Automata",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/results?search_query=Neso+Academy+Automata",
+      "order": 1
+    },
+    {
+      "id": "l11",
+      "semester": "3rd Semester",
+      "course": "Advanced Database Systems",
+      "title": "DBMS Complete Course",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/results?search_query=Gate+Smashers+DBMS",
+      "order": 1
+    },
+    {
+      "id": "l12",
+      "semester": "4th Semester",
+      "course": "Machine Learning",
+      "title": "Machine Learning Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/results?search_query=freeCodeCamp+Machine+Learning",
+      "order": 1
+    },
+    {
+      "id": "l13",
+      "semester": "4th Semester",
+      "course": "Deep Learning",
+      "title": "Deep Learning Fundamentals",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/results?search_query=MIT+OpenCourseWare+Deep+Learning",
+      "order": 1
+    },
+    {
+      "id": "l14",
+      "semester": "4th Semester",
+      "course": "Cyber Security Fundamentals",
+      "title": "Cyber Security Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/results?search_query=freeCodeCamp+Cyber+Security",
+      "order": 1
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "name": "IMAC Welcome Meetup",
+      "date": "2026-10-08",
+      "location": "IMAC Common Room",
+      "organizer": "IMAC Student Community",
+      "description": "Meet fellow students, introduce yourself and discover student activities."
+    },
+    {
+      "id": "e2",
+      "name": "AI Project Showcase",
+      "date": "2026-10-17",
+      "location": "UET Main Campus",
+      "organizer": "IMAC",
+      "description": "Student teams present practical AI and ML projects."
+    },
+    {
+      "id": "e3",
+      "name": "Cyber Security Awareness Session",
+      "date": "2026-10-24",
+      "location": "Seminar Hall",
+      "organizer": "IMAC",
+      "description": "A beginner-friendly session about safer digital habits and cyber security."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p1",
+      "name": "Hamza",
+      "role": "Senior",
+      "text": "Does anyone have a good resource for Automata Theory? I am revising regular expressions this week.",
+      "time": "2 hours ago"
+    },
+    {
+      "id": "p2",
+      "name": "Sara",
+      "role": "Junior",
+      "text": "Where can we find the timetable for next week? Also looking for project partners.",
+      "time": "5 hours ago"
+    },
+    {
+      "id": "p3",
+      "name": "Usman",
+      "role": "Senior",
+      "text": "For ML beginners: start with Python, NumPy, Pandas and basic statistics before jumping into deep learning.",
+      "time": "Yesterday"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | IMAC Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="dashboard">
+  <div id="site-header"></div>
+  <main class="section-wrap">
+    <div class="dashboard-top">
+      <div><span class="eyebrow">STUDENT DASHBOARD</span><h1 id="welcomeTitle">Welcome back.</h1><p class="muted">Your IMAC academic and community hub.</p></div>
+      <div id="dashboardDate" class="date-pill"></div>
+    </div>
+    <div class="quick-grid">
+      <a href="timetable.html" class="quick-card"><span>🗓️</span><strong>Today's Timetable</strong><small id="nextClassText">Loading...</small></a>
+      <a href="lectures.html" class="quick-card"><span>▶</span><strong>Continue Learning</strong><small>Open the lecture library</small></a>
+      <a href="common-room.html" class="quick-card"><span>💬</span><strong>Common Room</strong><small>Join the student discussion</small></a>
+      <a href="events.html" class="quick-card"><span>⚡</span><strong>Upcoming Events</strong><small id="eventCount">Loading...</small></a>
+    </div>
+    <section class="content-grid">
+      <div class="panel"><div class="panel-title"><h2>Upcoming events</h2><a href="events.html">See all →</a></div><div id="dashboardEvents"></div></div>
+      <div class="panel"><div class="panel-title"><h2>Latest discussions</h2><a href="common-room.html">Common room →</a></div><div id="dashboardPosts"></div></div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Common Room | IMAC Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="common">
+  <div id="site-header"></div>
+  <main class="section-wrap">
+    <div class="page-title"><span class="eyebrow">COMMUNITY</span><h1>Common Room</h1><p>A place for juniors, seniors and classmates to exchange ideas.</p></div>
+    <div class="community-layout">
+      <aside class="community-aside">
+        <div class="panel"><h3>Community rules</h3><ul class="rules"><li>Respect everyone.</li><li>No spam or harassment.</li><li>Share useful academic resources.</li><li>Protect private information.</li></ul></div>
+        <div class="panel"><h3>Start a discussion</h3><p class="muted small">Ask about courses, projects, societies or campus life.</p><button class="btn btn-primary full" id="focusPost">New Post</button></div>
+      </aside>
+      <section>
+        <form id="postForm" class="post-composer"><textarea id="postText" rows="3" placeholder="What's on your mind, IMAC?"></textarea><button class="btn btn-primary" type="submit">Post</button></form>
+        <div id="postList" class="post-list"></div>
+      </section>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
